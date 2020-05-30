@@ -3,7 +3,7 @@
 with stdenv.lib;
 
 buildLinux (args // rec {
-  version = "5.4.0";
+  version = "5.6.0";
   modDirVersion = version;
 
   src = fetchFromGitLab {
